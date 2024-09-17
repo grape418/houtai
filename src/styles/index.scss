@@ -1,0 +1,16 @@
+// 引入清楚默认样式
+@import './reset.scss';
+
+// 滚动条样式
+::-webkit-scrollbar-track{
+  background: $base-menu-background;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
